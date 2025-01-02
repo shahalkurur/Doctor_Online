@@ -131,6 +131,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 REST_FRAMEWORK = {
+<<<<<<< HEAD
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
@@ -142,6 +143,16 @@ REST_FRAMEWORK = {
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
+=======
+    
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+  
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+  
+}
+
+>>>>>>> 294d8479071132ec9cc5a42a6ffe81f4afe55fd1
 
 
 SIMPLE_JWT={
