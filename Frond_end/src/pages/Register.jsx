@@ -2,7 +2,14 @@ import React from 'react'
 
 function Register() {
   return (
-    <div>Register</div>
+    < form>
+      <h1>Register</h1>
+      <input placeholder='username'/><br/>
+      < input placeholder='email'/><br/>
+      < input placeholder='password'/><br/>
+      <button type='submit'/>
+
+    </form>
   )
 }
 
